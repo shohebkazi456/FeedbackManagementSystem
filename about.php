@@ -50,13 +50,13 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-            
-            a.onclick:hover, a.onclick:active {color: red;}
+                
+            a.obsnclick:hover, a.onclick:active {color: red;}
     </style>
   
     
      <div><header>
-                 <h2><center><img id="Image1" src="arkp.png" style="width:30%;" /></center>
+                 <h2><center><img id="Image1" src="Images/arkp.png" style="width:30%;" /></center>
                       Welcome 
 
                   <?php $query="select fullname from studentinfo where enrollmentno = '$eno'";
